@@ -12,14 +12,14 @@ btnRelFil.addEventListener('click', () => {
     <a href="https://pt.wikipedia.org/wiki/Gnosticismo" target="_blank">Saiba mais</a>`;
     resutado.style.display = 'flex';
     resutado.style.margin = '1rem';
-    resutado.style.width = '80%';
+    resutado.style.width = '100%';
     resutado.style.padding = '1rem';
     resutado.style.borderRadius = '0.5rem';
     resutado.style.backgroundColor = 'rgba(0, 0, 0, 0.889)';
     resutado.style.color = 'wheat';
     resutado.style.alignItems = 'center';
     resutado.style.justifyContent = 'center';
-    resutado.style.fontSize = '1.5rem';
+    resutado.style.fontSize = '1rem';
     resutado.style.textAlign = 'justify';
     resutado.style.flexDirection = 'column';    
 })
