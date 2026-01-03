@@ -13,6 +13,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Os Gnósticos</title>
 </head>
 
@@ -20,7 +24,11 @@
     <header>
         <div class="header-img">
             <img src="http://lorempixel.com.br/400/400" alt="uma imgem qualque por ai">
-            <audio id="meuAudio" controls>
+
+        </div>
+        <div id="meuAudio">
+            <img src="img/imgPlay.jpg" alt="imagem para o playGnosis">
+            <audio controls>
                 <source src="voices/Gnose_ A Busca Antiga por Conhecimento que Ecoa em Matrix e no Transumanismo.mp3"
                     type="audio/mp3">
             </audio>
@@ -33,8 +41,21 @@
                 Cátaros.</p>
         </div>
     </header>
+    <nav>
+        <div class="dropdown">
+            <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Menu</button>
+            <ul class="dropdown-menu">
+                <li><a href="#religFilo" class="dropdown-item">Religião e Filosofia</a></li>
+                <li><a href="#caracGnos" class="dropdown-item">Características do Gnosticismo</a></li>
+                <li><a href="#comparacao" class="dropdown-item">Comparação com Movimentos Modernos</a></li>
+                <li><a href="#gnose" class="dropdown-item">Gnose e a Jornada do Conhecimento</a></li>
+                <li><a href="#fiscEspirt" class="dropdown-item">Física Espíritual</a></li>
+            </ul>
+        </div>
+    </nav>
     <main class="main">
-        <section class="religFilo">
+        <section id="religFilo">
             <div class="container">
 
                 <img src="img/gnosisticismo01.png"
@@ -58,67 +79,164 @@
                 </div>
             </div>
         </section>
-        <section class="religFilo">
-            <img src="img/Gemini_Generated_Image_mlmkwfmlmkwfmlmk (1).png"
-                alt="imagem que tenta ilustrar to conhecimento no celebro com ajuda da inteligencia artificial">
-            <h2>Algumas características principais do gnosticismo incluem</h2>
-            <p id="descricao-busca">Dualismo: A crença em dois princípios supremos ou duas realidades fundamentais, uma
-                boa e espiritual, e
-                outra má e material.
-                Desvalorização do mundo material: Os gnósticos viam o mundo físico como uma prisão criada por um deus
-                inferior, conhecido como Demiurgo, e buscavam escapar dele através do conhecimento espiritual.
-                Salvação através do conhecimento: A salvação não era alcançada através de rituais ou da fé, mas sim
-                através do conhecimento secreto e esotérico (gnosis) que permitia ao indivíduo reconhecer sua verdadeira
-                natureza divina e se libertar do mundo material.
-                Textos sagrados alternativos: Os gnósticos tinham seus próprios textos sagrados, como os Evangelhos
-                gnósticos (Evangelho de Tomé, Evangelho de Felipe, Evangelho de Maria, etc.), que apresentavam versões
-                alternativas das histórias e ensinamentos cristãos.
-                Em relação às instituições religiosas, o gnosticismo nunca se consolidou em uma única instituição ou
-                igreja, mas sim em várias seitas e grupos independentes. Isso se deve, em parte, à diversidade de
-                crenças e práticas dentro do gnosticismo.</p>
+        <section ad="caracGnos">
+            <div class="container">
+                <img src="img/Gemini_Generated_Image_mlmkwfmlmkwfmlmk (1).png"
+                    alt="imagem que tenta ilustrar to conhecimento no celebro com ajuda da inteligencia artificial">
+                <h2>Algumas características principais do gnosticismo incluem</h2>
+                <p id="descricao-busca">Dualismo: A crença em dois princípios supremos ou duas realidades fundamentais,
+                    uma
+                    boa e espiritual, e
+                    outra má e material.
+                    Desvalorização do mundo material: Os gnósticos viam o mundo físico como uma prisão criada por um
+                    deus
+                    inferior, conhecido como Demiurgo, e buscavam escapar dele através do conhecimento espiritual.
+                    Salvação através do conhecimento: A salvação não era alcançada através de rituais ou da fé, mas sim
+                    através do conhecimento secreto e esotérico (gnosis) que permitia ao indivíduo reconhecer sua
+                    verdadeira
+                    natureza divina e se libertar do mundo material.
+                    Textos sagrados alternativos: Os gnósticos tinham seus próprios textos sagrados, como os Evangelhos
+                    gnósticos (Evangelho de Tomé, Evangelho de Felipe, Evangelho de Maria, etc.), que apresentavam
+                    versões
+                    alternativas das histórias e ensinamentos cristãos.
+                    Em relação às instituições religiosas, o gnosticismo nunca se consolidou em uma única instituição ou
+                    igreja, mas sim em várias seitas e grupos independentes. Isso se deve, em parte, à diversidade de
+                    crenças e práticas dentro do gnosticismo.</p>
+            </div>
         </section>
-        <section class="religFilo">
-            <img src="img/Gemini_Generated_Image_mlmkwfmlmkwfmlmk.png"
-                alt="imagem que tenta ilustrar to conhecimento no celebro com ajuda da inteligencia artificial">
-            <h2>Certas características com o gnosticismo</h2>
-            <h3 id="descricao-busca" class="text-primary">Algumas instituições religiosas modernas e movimentos
-                esotéricos compartilham certas características com
-                o gnosticismo antigo, embora não sejam diretamente derivados dele. Alguns exemplos incluem:</h3>
-            <p id="descricao-busca">Teosofia: Um movimento esotérico fundado no século XIX que busca a sabedoria divina
-                e acredita na
-                existência de conhecimentos ocultos que podem ser revelados através de práticas espirituais.
-                Rosacruz: Uma fraternidade esotérica que combina elementos de misticismo, hermetismo e cristianismo,
-                enfatizando a busca pelo conhecimento espiritual e a verdade oculta.
-                Maçonaria: Embora não seja uma instituição religiosa, a maçonaria é uma fraternidade que incorpora
-                simbolismo esotérico e enfatiza a busca pela verdade e pelo autoconhecimento. Essas instituições e
-                movimentos compartilham com o gnosticismo a ideia de que há uma verdade mais
-                profunda, esotérica, que pode ser descoberta através de conhecimento e práticas específicas. No entanto,
-                é importante notar que cada uma dessas instituições tem suas próprias doutrinas e práticas, e não podem
-                ser consideradas gnósticas no sentido histórico do termo</p>
+        <section id="comparacao">
+            <div class="container">
+                <img src="img/Gemini_Generated_Image_mlmkwfmlmkwfmlmk.png"
+                    alt="imagem que tenta ilustrar to conhecimento no celebro com ajuda da inteligencia artificial">
+                <h2>Certas características com o gnosticismo</h2>
+                <h3 id="descricao-busca" class="text-primary">Algumas instituições religiosas modernas e movimentos
+                    esotéricos compartilham certas características com
+                    o gnosticismo antigo, embora não sejam diretamente derivados dele. Alguns exemplos incluem:</h3>
+                <p id="descricao-busca">Teosofia: Um movimento esotérico fundado no século XIX que busca a sabedoria
+                    divina
+                    e acredita na
+                    existência de conhecimentos ocultos que podem ser revelados através de práticas espirituais.
+                    Rosacruz: Uma fraternidade esotérica que combina elementos de misticismo, hermetismo e cristianismo,
+                    enfatizando a busca pelo conhecimento espiritual e a verdade oculta.
+                    Maçonaria: Embora não seja uma instituição religiosa, a maçonaria é uma fraternidade que incorpora
+                    simbolismo esotérico e enfatiza a busca pela verdade e pelo autoconhecimento. Essas instituições e
+                    movimentos compartilham com o gnosticismo a ideia de que há uma verdade mais
+                    profunda, esotérica, que pode ser descoberta através de conhecimento e práticas específicas. No
+                    entanto,
+                    é importante notar que cada uma dessas instituições tem suas próprias doutrinas e práticas, e não
+                    podem
+                    ser consideradas gnósticas no sentido histórico do termo</p>
         </section>
-        <section class="religFilo">
-            <img src="img/Gemini_Generated_Image_mlmkwfmlmkwfmlmk (2).png" alt="uma imagem gerada por ia">
-
-            <h2>Gnose e a Jornada do Conhecimento - Uma Análise Abrangente do Gnosticismo Antigo às Ressonâncias
-                Contemporâneas</h2>
-            <h3 id="tituTerc">A Gnose como Conhecimento e Propósito Existencial</h3>
-            <p id="descricao-busca">A busca por um conhecimento que transcenda a realidade tangível e revele o "porquê
-                da existência" é um anseio fundamental da experiência humana. A consulta do usuário, em sua essência,
-                reflete essa aspiração ancestral. O termo “gnosticismo” (do grego Γνωστικισμóς) e “gnose” (Γνῶσις)
-                refere-se a um conjunto de correntes filosófico-religiosas que, ao longo dos séculos I e II d.C.,
-                emergiram na região do Mediterrâneo. Essas correntes se estabeleceram como um movimento sincrético,
-                mesclando interpretações heterodoxas de relatos bíblicos e apócrifos com elementos da filosofia
-                médio-platônica e cultos de mistério greco-romanos. Após um período de influência, o gnosticismo foi
-                amplamente condenado pela Igreja nascente como uma heresia perigosa. Contudo, em vez de um sistema
-                monolítico, o gnosticismo é melhor compreendido como uma "sensibilidade religiosa" que, historicamente,
-                forneceu uma estrutura para responder a questões profundas sobre a natureza da realidade, a origem do
-                mal e o destino da alma humana. Este relatório técnico se aprofunda nessa tradição, analisando seus
-                fundamentos, seus conflitos históricos e seu surpreendente legado na cultura contemporânea. </p>
+        <section id="gnose">
+            <div class="container">
+                <img src="img/Gemini_Generated_Image_mlmkwfmlmkwfmlmk (2).png" alt="uma imagem gerada por ia">
+                <h2>Gnose e a Jornada do Conhecimento - Uma Análise Abrangente do Gnosticismo Antigo às Ressonâncias
+                    Contemporâneas</h2>
+                <h3 id="tituTerc">A Gnose como Conhecimento e Propósito Existencial</h3>
+                <p id="descricao-busca">A busca por um conhecimento que transcenda a realidade tangível e revele o
+                    "porquê
+                    da existência" é um anseio fundamental da experiência humana. A consulta do usuário, em sua
+                    essência,
+                    reflete essa aspiração ancestral. O termo “gnosticismo” (do grego Γνωστικισμóς) e “gnose” (Γνῶσις)
+                    refere-se a um conjunto de correntes filosófico-religiosas que, ao longo dos séculos I e II d.C.,
+                    emergiram na região do Mediterrâneo. Essas correntes se estabeleceram como um movimento sincrético,
+                    mesclando interpretações heterodoxas de relatos bíblicos e apócrifos com elementos da filosofia
+                    médio-platônica e cultos de mistério greco-romanos. Após um período de influência, o gnosticismo foi
+                    amplamente condenado pela Igreja nascente como uma heresia perigosa. Contudo, em vez de um sistema
+                    monolítico, o gnosticismo é melhor compreendido como uma "sensibilidade religiosa" que,
+                    historicamente,
+                    forneceu uma estrutura para responder a questões profundas sobre a natureza da realidade, a origem
+                    do
+                    mal e o destino da alma humana. Este relatório técnico se aprofunda nessa tradição, analisando seus
+                    fundamentos, seus conflitos históricos e seu surpreendente legado na cultura contemporânea. </p>
+            </div>
+        </section>
+        <section id="fiscEspirt">
+            <div class="container">
+                <h3 id="tituTerc">Física Espiritual</h3>
+                <p id="descricao-busca">É um conceito que explora a interconexão entre a ciência (expecialmente a física
+                    quântica) e as
+                    experências espírituais, sugerindo que somos seres energéticos e multidimensionais onde o físico e o
+                    não-físico se
+                    influenciam, com a consciência sendo um ponto central, e muitas vezes se manifesta como uma
+                    busca por bem-estar integral que une corpo, mente e espírito através de práticas como meditação,
+                    fé, propósito e conexão, buscando um equilíbrio para a vida.</p>
+                <h4 class="pt-5">Conceitos-chave:</h4>
+                <div class="card bg-dark text-white p-3">
+                    <ul class="list-group">
+                        <li class="list-group-items">
+                            <p><strong>Interconexão</strong>:
+                                A física quântica descreve um
+                                universo
+                                interconectado, onde
+                                tudo está em
+                                relação, ecoando a ideia de que o físico e o espiritual não são separados.
+                            </p>
+                        </li>
+                        <li class="list-group-items">
+                            <p><strong>Energia e Consciência</strong>:
+                                O corpo é visto como um
+                                veículo
+                                para a consciência
+                                (energia não-física), e pensamentos/emoções (energia) podem alterar a realidade física,
+                                indicando uma
+                                ligação direta entre os reinos.
+                            </p>
+                        </li>
+                        <li class="list-group-items"><p>
+                            <strong>Saúde Integral</strong>: A saúde física, mental e
+                                espiritual são
+                                interdependentes; a
+                                espiritualidade
+                                (sentido, propósito) contribui para o bem-estar geral e a energia vital.
+                        </p></li>
+                    </ul>
+                    <h4 class="pt-5">Como se relaciona com a ciência (Física Quântica):</h4>
+                    <ul class="list-group">
+                        <li class="list-group-items"><p>
+                            <strong>Fenômenos Quânticos</strong>: A física quântica estuda o
+                                mundo microscópico (átomos,
+                                partículas)
+                                e, por analogia, propõe que a mente (um aspecto não-físico) opera de forma "quântica",
+                                influenciando a matéria e a energia.
+                        </p></li>
+                        <li class="list-group-items"><p>
+                            <strong>Campo Unificado</strong>: Ideias como a energia quântica
+                                (terapias que buscam o
+                                "balanço
+                                energético") e a interconexão universal (tudo é Um) são frequentemente ligadas à
+                                espiritualidade.
+                        </p></li>
+                    </ul>
+                    <h4 class="pt-5">Como se relaciona com a espiritualidade:</h4>
+                    <ul class="list-group">
+                        <li class="list-group-items"><p>
+                            <strong>Busca de Sentido</strong>: A espiritualidade envolve
+                                encontrar propósito, fé,
+                                valores e conexão com
+                                algo maior, o que fortalece a saúde física e mental.
+                        </p></li>
+                        <li class="list-group-items"><p>
+                            <strong>Equilíbrio</strong>: A necessidade de cuidar do corpo
+                                (físico), da mente (emocional)
+                                e do espírito
+                                (crenças, propósito) para uma vida plena.
+                        </p></li>
+                    </ul>
+                    <h4 class="pt-5">Práticas Comuns:</h4>
+                    <ul class="d-flex w-100 align-items-start">
+                        <li class="list-items"><p>Meditação e Oração</p></li>
+                        <li class="list-items"><p>Cuidado do Corpo (Alimentação, exercícios)</p></li>
+                        <li class="list-items"><p>Conexão com a Natureza</p></li>
+                        <li class="list-items"><p>Cultivo de Pensamentos Positivos</p></li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 - Todos os direitos reservados</p>
+        <p>&copy; 2025 - Todos os direitos reservados - Lz_ntn</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

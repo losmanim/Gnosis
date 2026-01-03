@@ -67,10 +67,20 @@ header .header-img img {
   height: auto;
 }
 
-header audio {
-  padding: 0.5rem;
-  
-  
+header #meuAudio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+
+header #meuAudio img {
+  width: 300px;
+  height: 150px;
+  border-radius: 50px 50px 0px 0px;
 }
 
 main {
@@ -120,7 +130,7 @@ main h2 {
   text-align: justify;
 }
 
-.religFilo {
+main section {
     background-color: darkgoldenrod;
     color: black;
     border-radius: 10px;
@@ -130,7 +140,7 @@ main h2 {
     position: relative;
 }
 
-main .religFilo #btn-mais {
+main #fiscEspirt #btn-mais {
   position: absolute;
   bottom: 10px;
   right: 10px;
@@ -159,5 +169,29 @@ main .religFilo #btn-mais {
   background-color: rgba(0, 0, 0, 0.889);
   transition: all 3s;
   cursor: all-scroll;
+}
+
+main section#fiscEspirt .container h4 {
+  font-size: 2.1rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  color: darkgoldenrod;
+  text-shadow: 0 0 10px black;
+}
+
+main section#fiscEspirt .card ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+main section#fiscEspirt .card ul li {
+  list-style-type: none;
+}
+
+main section#fiscEspirt .card ul li p {
+  text-align: justify;
 }
 
